@@ -1,0 +1,118 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose readDependencies loading dependencies from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\package.json
+5 verbose install where, deps [ 'D:\\vidya\\MyDocuments\\AdvantageMedicalCare\\Stage4\\APM - Start',
+5 verbose install   [ 'angular2',
+5 verbose install     'systemjs',
+5 verbose install     'es6-shim',
+5 verbose install     'reflect-metadata',
+5 verbose install     'rxjs',
+5 verbose install     'zone.js',
+5 verbose install     'bootstrap',
+5 verbose install     'concurrently',
+5 verbose install     'lite-server',
+5 verbose install     'typescript',
+5 verbose install     'typings' ] ]
+6 verbose install where, peers [ 'D:\\vidya\\MyDocuments\\AdvantageMedicalCare\\Stage4\\APM - Start',
+6 verbose install   [] ]
+7 verbose installManyTop reading for lifecycle D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\package.json
+8 info preinstall product-management@1.0.0
+9 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\angular2\package.json
+10 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\bootstrap\package.json
+11 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\concurrently\package.json
+12 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\es6-shim\package.json
+13 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\lite-server\package.json
+14 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\reflect-metadata\package.json
+15 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\rxjs\package.json
+16 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\systemjs\package.json
+17 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\typescript\package.json
+18 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\typings\package.json
+19 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\zone.js\package.json
+20 verbose readDependencies loading dependencies from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\package.json
+21 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\angular2\package.json
+22 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\bootstrap\package.json
+23 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\concurrently\package.json
+24 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\es6-shim\package.json
+25 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\lite-server\package.json
+26 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\reflect-metadata\package.json
+27 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\rxjs\package.json
+28 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\systemjs\package.json
+29 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\typescript\package.json
+30 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\typings\package.json
+31 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\zone.js\package.json
+32 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\.bin\concurrent\package.json
+33 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\.bin\concurrent.cmd\package.json
+34 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\.bin\concurrently\package.json
+35 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\.bin\concurrently.cmd\package.json
+36 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\.bin\lite-server\package.json
+37 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\.bin\lite-server.cmd\package.json
+38 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\.bin\tsc\package.json
+39 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\.bin\tsc.cmd\package.json
+40 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\.bin\tsserver\package.json
+41 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\.bin\tsserver.cmd\package.json
+42 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\.bin\typings\package.json
+43 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start\node_modules\.bin\typings.cmd\package.json
+44 verbose already installed skipping concurrently@^2.0.0 D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start
+45 verbose already installed skipping lite-server@^2.2.0 D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start
+46 verbose already installed skipping typescript@^1.8.10 D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start
+47 verbose already installed skipping typings@^0.7.12 D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start
+48 verbose already installed skipping angular2@2.0.0-beta.15 D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start
+49 verbose already installed skipping systemjs@0.19.26 D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start
+50 verbose already installed skipping es6-shim@^0.35.0 D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start
+51 verbose already installed skipping reflect-metadata@0.1.2 D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start
+52 verbose already installed skipping rxjs@5.0.0-beta.2 D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start
+53 verbose already installed skipping zone.js@0.6.10 D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start
+54 verbose already installed skipping bootstrap@^3.3.6 D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start
+55 silly install resolved []
+56 info build D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start
+57 info linkStuff product-management@1.0.0
+58 silly linkStuff product-management@1.0.0 has D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4 as its parent node_modules
+59 verbose linkBins product-management@1.0.0
+60 verbose linkMans product-management@1.0.0
+61 verbose rebuildBundles product-management@1.0.0
+62 verbose rebuildBundles [ '.bin',
+62 verbose rebuildBundles   'angular2',
+62 verbose rebuildBundles   'bootstrap',
+62 verbose rebuildBundles   'concurrently',
+62 verbose rebuildBundles   'es6-shim',
+62 verbose rebuildBundles   'lite-server',
+62 verbose rebuildBundles   'reflect-metadata',
+62 verbose rebuildBundles   'rxjs',
+62 verbose rebuildBundles   'systemjs',
+62 verbose rebuildBundles   'typescript',
+62 verbose rebuildBundles   'typings',
+62 verbose rebuildBundles   'zone.js' ]
+63 info install product-management@1.0.0
+64 info postinstall product-management@1.0.0
+65 verbose unsafe-perm in lifecycle true
+66 info product-management@1.0.0 Failed to exec postinstall script
+67 verbose stack Error: product-management@1.0.0 postinstall: `typings install`
+67 verbose stack Exit status 1
+67 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:213:16)
+67 verbose stack     at EventEmitter.emit (events.js:110:17)
+67 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+67 verbose stack     at ChildProcess.emit (events.js:110:17)
+67 verbose stack     at maybeClose (child_process.js:1015:16)
+67 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+68 verbose pkgid product-management@1.0.0
+69 verbose cwd D:\vidya\MyDocuments\AdvantageMedicalCare\Stage4\APM - Start
+70 error Windows_NT 6.1.7601
+71 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+72 error node v0.12.7
+73 error npm  v2.11.3
+74 error code ELIFECYCLE
+75 error product-management@1.0.0 postinstall: `typings install`
+75 error Exit status 1
+76 error Failed at the product-management@1.0.0 postinstall script 'typings install'.
+76 error This is most likely a problem with the product-management package,
+76 error not with npm itself.
+76 error Tell the author that this fails on your system:
+76 error     typings install
+76 error You can get their info via:
+76 error     npm owner ls product-management
+76 error There is likely additional logging output above.
+77 verbose exit [ 1, true ]

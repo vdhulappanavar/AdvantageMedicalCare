@@ -1,0 +1,195 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose readDependencies loading dependencies from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\package.json
+5 warn package.json angular2-seed@1.0.0 No repository field.
+6 verbose install where, deps [ 'D:\\vidya\\MyDocuments\\AdvantageMedicalCare\\project-recipe-book-rc-master\\project-recipe-book-rc-master',
+6 verbose install   [ '@angular/common',
+6 verbose install     '@angular/compiler',
+6 verbose install     '@angular/core',
+6 verbose install     '@angular/http',
+6 verbose install     '@angular/platform-browser',
+6 verbose install     '@angular/platform-browser-dynamic',
+6 verbose install     '@angular/router',
+6 verbose install     '@angular/upgrade',
+6 verbose install     'systemjs',
+6 verbose install     'es6-shim',
+6 verbose install     'reflect-metadata',
+6 verbose install     'rxjs',
+6 verbose install     'zone.js',
+6 verbose install     'concurrently',
+6 verbose install     'gulp',
+6 verbose install     'gulp-autoprefixer',
+6 verbose install     'gulp-clean-css',
+6 verbose install     'gulp-sass',
+6 verbose install     'gulp-sourcemaps',
+6 verbose install     'gulp-typescript',
+6 verbose install     'lite-server',
+6 verbose install     'systemjs-builder',
+6 verbose install     'typings' ] ]
+7 verbose install where, peers [ 'D:\\vidya\\MyDocuments\\AdvantageMedicalCare\\project-recipe-book-rc-master\\project-recipe-book-rc-master',
+7 verbose install   [] ]
+8 verbose installManyTop reading for lifecycle D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\package.json
+9 info preinstall angular2-seed@1.0.0
+10 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\concurrently\package.json
+11 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\es6-shim\package.json
+12 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\gulp\package.json
+13 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\gulp-autoprefixer\package.json
+14 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\gulp-clean-css\package.json
+15 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\gulp-sass\package.json
+16 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\gulp-sourcemaps\package.json
+17 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\gulp-typescript\package.json
+18 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\lite-server\package.json
+19 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\reflect-metadata\package.json
+20 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\rxjs\package.json
+21 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\systemjs\package.json
+22 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\systemjs-builder\package.json
+23 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\typings\package.json
+24 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\zone.js\package.json
+25 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\@angular\common\package.json
+26 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\@angular\compiler\package.json
+27 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\@angular\core\package.json
+28 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\@angular\http\package.json
+29 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\@angular\platform-browser\package.json
+30 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\@angular\platform-browser-dynamic\package.json
+31 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\@angular\router\package.json
+32 verbose installManyTop reading scoped package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\@angular\upgrade\package.json
+33 info package.json gulp-clean-css@2.0.10 No README data
+34 info package.json @angular/common@2.0.0-rc.1 No description
+35 info package.json @angular/common@2.0.0-rc.1 No repository field.
+36 info package.json @angular/common@2.0.0-rc.1 No README data
+37 info package.json @angular/compiler@2.0.0-rc.1 No description
+38 info package.json @angular/compiler@2.0.0-rc.1 No repository field.
+39 info package.json @angular/compiler@2.0.0-rc.1 No README data
+40 info package.json @angular/core@2.0.0-rc.1 No description
+41 info package.json @angular/core@2.0.0-rc.1 No repository field.
+42 info package.json @angular/core@2.0.0-rc.1 No README data
+43 info package.json @angular/http@2.0.0-rc.1 No description
+44 info package.json @angular/http@2.0.0-rc.1 No repository field.
+45 info package.json @angular/http@2.0.0-rc.1 No README data
+46 info package.json @angular/platform-browser@2.0.0-rc.1 No description
+47 info package.json @angular/platform-browser@2.0.0-rc.1 No repository field.
+48 info package.json @angular/platform-browser@2.0.0-rc.1 No README data
+49 info package.json @angular/platform-browser-dynamic@2.0.0-rc.1 No description
+50 info package.json @angular/platform-browser-dynamic@2.0.0-rc.1 No repository field.
+51 info package.json @angular/platform-browser-dynamic@2.0.0-rc.1 No README data
+52 info package.json @angular/router@2.0.0-rc.1 No description
+53 info package.json @angular/router@2.0.0-rc.1 No repository field.
+54 info package.json @angular/router@2.0.0-rc.1 No README data
+55 info package.json @angular/upgrade@2.0.0-rc.1 No description
+56 info package.json @angular/upgrade@2.0.0-rc.1 No repository field.
+57 info package.json @angular/upgrade@2.0.0-rc.1 No README data
+58 verbose readDependencies loading dependencies from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\package.json
+59 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\concurrently\package.json
+60 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\es6-shim\package.json
+61 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\gulp\package.json
+62 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\gulp-autoprefixer\package.json
+63 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\gulp-clean-css\package.json
+64 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\gulp-sass\package.json
+65 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\gulp-sourcemaps\package.json
+66 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\gulp-typescript\package.json
+67 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\lite-server\package.json
+68 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\reflect-metadata\package.json
+69 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\rxjs\package.json
+70 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\systemjs\package.json
+71 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\systemjs-builder\package.json
+72 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\typings\package.json
+73 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\zone.js\package.json
+74 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\.bin\concurrent\package.json
+75 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\.bin\concurrent.cmd\package.json
+76 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\.bin\concurrently\package.json
+77 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\.bin\concurrently.cmd\package.json
+78 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\.bin\gulp\package.json
+79 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\.bin\gulp.cmd\package.json
+80 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\.bin\lite-server\package.json
+81 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\.bin\lite-server.cmd\package.json
+82 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\.bin\typings\package.json
+83 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\.bin\typings.cmd\package.json
+84 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\@angular\common\package.json
+85 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\@angular\compiler\package.json
+86 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\@angular\core\package.json
+87 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\@angular\http\package.json
+88 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\@angular\platform-browser\package.json
+89 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\@angular\platform-browser-dynamic\package.json
+90 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\@angular\router\package.json
+91 verbose targetResolver reading package data from D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master\node_modules\@angular\upgrade\package.json
+92 verbose already installed skipping @angular/platform-browser-dynamic@2.0.0-rc.1 D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master
+93 verbose already installed skipping @angular/router@2.0.0-rc.1 D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master
+94 verbose already installed skipping @angular/upgrade@2.0.0-rc.1 D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master
+95 verbose already installed skipping systemjs@0.19.27 D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master
+96 verbose already installed skipping es6-shim@^0.35.0 D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master
+97 verbose already installed skipping reflect-metadata@^0.1.3 D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master
+98 verbose already installed skipping rxjs@5.0.0-beta.6 D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master
+99 verbose already installed skipping zone.js@^0.6.12 D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master
+100 verbose already installed skipping concurrently@^2.0.0 D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master
+101 verbose already installed skipping gulp@^3.9.0 D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master
+102 verbose already installed skipping gulp-autoprefixer@^3.1.0 D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master
+103 verbose already installed skipping gulp-clean-css@^2.0.6 D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master
+104 verbose already installed skipping gulp-sass@^2.3.1 D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master
+105 verbose already installed skipping gulp-sourcemaps@^1.6.0 D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master
+106 verbose already installed skipping gulp-typescript@^2.10.0 D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master
+107 verbose already installed skipping lite-server@^2.1.0 D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master
+108 verbose already installed skipping systemjs-builder@^0.15.16 D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master
+109 verbose already installed skipping typings@^0.8.1 D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master
+110 verbose already installed skipping @angular/common@2.0.0-rc.1 D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master
+111 verbose already installed skipping @angular/compiler@2.0.0-rc.1 D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master
+112 verbose already installed skipping @angular/core@2.0.0-rc.1 D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master
+113 verbose already installed skipping @angular/http@2.0.0-rc.1 D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master
+114 verbose already installed skipping @angular/platform-browser@2.0.0-rc.1 D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master
+115 silly install resolved []
+116 info build D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master
+117 info linkStuff angular2-seed@1.0.0
+118 silly linkStuff angular2-seed@1.0.0 has D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master as its parent node_modules
+119 verbose linkBins angular2-seed@1.0.0
+120 verbose linkMans angular2-seed@1.0.0
+121 verbose rebuildBundles angular2-seed@1.0.0
+122 verbose rebuildBundles [ '.bin',
+122 verbose rebuildBundles   '@angular',
+122 verbose rebuildBundles   'concurrently',
+122 verbose rebuildBundles   'es6-shim',
+122 verbose rebuildBundles   'gulp',
+122 verbose rebuildBundles   'gulp-autoprefixer',
+122 verbose rebuildBundles   'gulp-clean-css',
+122 verbose rebuildBundles   'gulp-sass',
+122 verbose rebuildBundles   'gulp-sourcemaps',
+122 verbose rebuildBundles   'gulp-typescript',
+122 verbose rebuildBundles   'lite-server',
+122 verbose rebuildBundles   'reflect-metadata',
+122 verbose rebuildBundles   'rxjs',
+122 verbose rebuildBundles   'systemjs',
+122 verbose rebuildBundles   'systemjs-builder',
+122 verbose rebuildBundles   'typings',
+122 verbose rebuildBundles   'zone.js' ]
+123 info install angular2-seed@1.0.0
+124 info postinstall angular2-seed@1.0.0
+125 verbose unsafe-perm in lifecycle true
+126 info angular2-seed@1.0.0 Failed to exec postinstall script
+127 verbose stack Error: angular2-seed@1.0.0 postinstall: `typings install`
+127 verbose stack Exit status 1
+127 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:213:16)
+127 verbose stack     at EventEmitter.emit (events.js:110:17)
+127 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+127 verbose stack     at ChildProcess.emit (events.js:110:17)
+127 verbose stack     at maybeClose (child_process.js:1015:16)
+127 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+128 verbose pkgid angular2-seed@1.0.0
+129 verbose cwd D:\vidya\MyDocuments\AdvantageMedicalCare\project-recipe-book-rc-master\project-recipe-book-rc-master
+130 error Windows_NT 6.1.7601
+131 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+132 error node v0.12.7
+133 error npm  v2.11.3
+134 error code ELIFECYCLE
+135 error angular2-seed@1.0.0 postinstall: `typings install`
+135 error Exit status 1
+136 error Failed at the angular2-seed@1.0.0 postinstall script 'typings install'.
+136 error This is most likely a problem with the angular2-seed package,
+136 error not with npm itself.
+136 error Tell the author that this fails on your system:
+136 error     typings install
+136 error You can get their info via:
+136 error     npm owner ls angular2-seed
+136 error There is likely additional logging output above.
+137 verbose exit [ 1, true ]

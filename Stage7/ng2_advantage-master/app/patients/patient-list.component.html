@@ -1,0 +1,64 @@
+<div class='panel panel-primary'>
+    <div class='panel-heading'>
+        {{pageTitle}}
+    </div>
+    <div class='panel-body'>
+        <div class='row'>
+            <div class='col-md-2'>Filter by Patient:</div>
+            <div class='col-md-4'>
+                <input type='text'
+                    [(ngModel)]='listFilter' />
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-6'>
+                <h3>Filtered by: {{listFilter}} </h3>
+            </div>
+        </div>
+        <div class='table-responsive'>
+            <table class='table' *ngIf='patients && patients.length'>
+                <thead>
+                    <tr>
+                        <th>
+                            <button class='btn btn-primary'
+                                (click)='toggleImage()'>
+                                {{showImage ? 'Hide' : 'Show'}} Image
+                            </button>
+                        </th>
+                        <th>Patient</th>
+                        <th>Code</th>
+                        <th>Available</th>
+                        <th>Price</th>
+                        <th>5 Star Rating</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor='#patient of patients | patientFilter:listFilter'>
+                        <td>
+                            <img *ngIf='showImage'
+                                [src]='patient.imageUrl'
+                                [title]='patient.patientName'
+                                [style.width.px]='imageWidth'
+                                [style.margin.px]='imageMargin'>
+                        </td>
+                        <td>
+                            <a [routerLink]="['PatientDetail', {id: patient.patientId}]">
+                               {{patient.patientName}}
+                            </a>
+                        </td>
+   
+                        
+                        <td>{{ patient.patientCode | lowercase }}</td>
+                        <td>{{ patient.releaseDate }}</td>
+                        <td>{{ patient.price | currency:'USD':true:'1.2-2'}}</td>
+                        <td>
+                            <ai-star [rating]='patient.starRating'
+                                (ratingClicked)='onRatingClicked($event)'>
+                            </ai-star>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
