@@ -11,7 +11,7 @@
 7 verbose unsafe-perm in lifecycle true
 8 info angular2-seed@1.0.0 Failed to exec lite script
 9 verbose stack Error: angular2-seed@1.0.0 lite: `lite-server`
-9 verbose stack Exit status 1073807364
+9 verbose stack Exit status 1
 9 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:213:16)
 9 verbose stack     at EventEmitter.emit (events.js:110:17)
 9 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
@@ -26,7 +26,7 @@
 15 error npm  v2.11.3
 16 error code ELIFECYCLE
 17 error angular2-seed@1.0.0 lite: `lite-server`
-17 error Exit status 1073807364
+17 error Exit status 1
 18 error Failed at the angular2-seed@1.0.0 lite script 'lite-server'.
 18 error This is most likely a problem with the angular2-seed package,
 18 error not with npm itself.

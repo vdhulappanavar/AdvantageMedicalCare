@@ -21,12 +21,15 @@ export class PatientMedicineAddComponent implements OnInit {
     pageTitle1: string = 'Patient Detail';
     pageTitle2: string = 'Medcine List';
     patient: IPatient;
+    medList : IMedicine[];
     errorMessage: string;
     imageWidth = 50;
     imageMargin = 2;
     showImage = false;
-    listFilter = "";	
-	medicines : IMedicine[] ;
+    listFilter = "";
+    test : string="";
+    patientMedicne : IMedicine[];	
+	medicines : IMedicine[] ;    
     constructor(private _patientService: PatientService,
         private _router: Router,
         private _routeParams: RouteParams,
@@ -57,10 +60,19 @@ export class PatientMedicineAddComponent implements OnInit {
         this.showImage = !this.showImage;
     }
     
-    
-    
-    OnRatingClicked(message : string) : void {
-        this.pageTitle = "Medicine List: " + message;
+    AddMedicine(medId:number){        
+        this.test="helllo";
+        
+        for(var i =0;i<this.medicines.length; i++)
+        {
+            if(this.medicines[i].medicineId == medId)
+            {
+                medId=i;
+                break;
+            }
+        }
+        console.log(this.medicines[medId].medicineName);
+        console.log(this.medicines[medId]);
+        this.patientMedicne.push(this.medicines[0]);        
     }
-
 }

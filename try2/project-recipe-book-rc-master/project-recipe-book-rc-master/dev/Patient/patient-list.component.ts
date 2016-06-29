@@ -6,10 +6,10 @@ import {StarComponent} from '../shared/star.component';
 import {PatientService} from './patient.service';
 @Component({
 	
-	templateUrl : 'app/Patient/patient-list.component.html',
+	templateUrl : 'templates/patient-list.component.html',
     selector : "pt-list",
     directives : [StarComponent , ROUTER_DIRECTIVES],
-    styleUrls : ['app/Patient/patient-list.component.css'],
+
     pipes : [PatientFilterPipe],    
 })
 export class PatientListComponent implements OnInit{

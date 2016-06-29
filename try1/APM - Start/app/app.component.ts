@@ -10,6 +10,7 @@ import {PatientDetailComponent} from './Patient/patient-detail.component';
 import{PatientService} from './Patient/patient.service';
 import {BillComponent} from './Bill/bill.component';
 import {PatientMedicineAddComponent} from './Bill/patient-Medicine-add.component';
+import {ShoppingListComponent} from './ShoppingList/shopping-list/shopping-list.component';
 import 'rxjs/Rx'; //Load all features
 
 import {RouteConfig} from 'angular2/router';
@@ -28,7 +29,9 @@ import {RouteConfig} from 'angular2/router';
 	
 	{path : '/Bill' , name : 'Bill' , component : BillComponent},
 	
-	{path : '/Billing' , name : 'Billing' , component : PatientMedicineAddComponent}
+	{path : '/Billing' , name : 'Billing' , component : PatientMedicineAddComponent},
+	
+	{path : '/ShoppingList' , name : 'ShoppingList' , component : ShoppingListComponent}
 	
     ])
 
@@ -44,6 +47,7 @@ import {RouteConfig} from 'angular2/router';
 									<li [routerLink] = "['Medicines']" style="pointer:cursor"><a>Medicine List</a></li>
 									<li [routerLink] = "['Patients']" style="pointer:cursor"><a>Patient List</a></li>									
 									<li [routerLink] = "['Bill']" style="pointer:cursor"><a>Bill</a></li>
+									<li [routerLink] = "['ShoppingList']" style="pointer:cursor"><a>Shopping List</a></li>
 								</ul>
 							</div>
 						</nav>

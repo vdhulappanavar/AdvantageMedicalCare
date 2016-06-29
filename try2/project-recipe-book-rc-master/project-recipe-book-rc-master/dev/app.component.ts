@@ -4,7 +4,7 @@ import {Routes} from "@angular/router";
 import {ShoppingListComponent} from "./shopping-list/shopping-list.component";
 import {ROUTER_DIRECTIVES} from "@angular/router";
 import {TestComponent} from "./test.component";
-import {PatientListComponent} from "./Patient/patient-list.component";
+import {MedicineListComponent} from "../app/Medicine/medicine-list.component";
 @Component({
     selector: 'my-app',
     template: `
@@ -15,7 +15,7 @@ import {PatientListComponent} from "./Patient/patient-list.component";
                     <ul class="nav navbar-nav">
                         <li><a [routerLink]="['recipes']">Recipes</a></li>
                         <li><a [routerLink]="['shopping-list']">Shopping List</a></li>
-                        <li><a [routerLink] = "['try']">Try</a></li>
+                        <li><a [routerLink] = "['try']">Try1</a></li>
                         <li><a [routerLink] = "['patientList']">Patient List</a></li>
                     </ul>
                  </div>                 
@@ -31,7 +31,7 @@ import {PatientListComponent} from "./Patient/patient-list.component";
     {path: '/recipes', component: RecipesComponent}, // useAsDefault: true => coming soon
     {path: '/shopping-list', component: ShoppingListComponent},
     {path: '/try', component: TestComponent},
-    {path: '/patientList', component: PatientListComponent}
+    {path: '/patientList', component: MedicineListComponent }
 ])
 export class AppComponent {
     pageTitle = "Advantage Elder Care"

@@ -11,10 +11,8 @@ export class MedicineService{
     
     constructor(private _http : Http){}
 	getMedicines() : Observable<IMedicine[]>{        
-		return this._http.get(this._medicineUrl)
-                .map( (response: Response) => <IMedicine[]>response.json() )
-                //.do(data => console.log("ALL" + JSON.stringify(data)) )
-                .catch(this.handelError);
+		return this._http.get(this._medicineUrl).map( (response: Response) => <IMedicine[]>response.json() ).do(  
+            data => console.log("ALL" + JSON.stringify(data)) ).catch(this.handelError);
         		
 	}
     getMedicine(id: number): Observable<IMedicine> {

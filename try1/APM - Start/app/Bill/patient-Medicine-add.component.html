@@ -2,6 +2,7 @@
     <div class='panel panel-primary'>
         <div class='panel-heading'>
             {{pageTitle2}}
+            
         </div>
     
         <!-- Filter the Medicines   -->
@@ -33,7 +34,7 @@
                             <th>Code</th>
                             <th>Available</th>
                             <th>Price</th>
-                            <th>5 Star Rating</th>
+                            <th>Add</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -45,7 +46,7 @@
                             <td>{{medicine.medicineCode | lowercase}}</td>
                             <td>{{medicine.releaseDate}}</td>
                             <td>{{medicine.price | currency : 'INR':true:'1.2-2'}}</td>
-                            <td><ai-star [rating] = "medicine.starRating" (ratingClicked) = "OnRatingClicked($event)"></ai-star></td>
+                            <td><button class="btn btn-primary" (click) = "AddMedicine(medicine.medicineId)" [value] = "medicine.medicineId"> Add</button></td>
                         </tr>
                     </tbody>
                 </table>
@@ -55,9 +56,14 @@
 </div>
 
 <div class="col-md-6">
-    <div class='panel panel-primary' *ngIf='patient'>
+    <div class='panel panel-primaryCustom' *ngIf='patient'>
         <div class='panel-heading' style='font-size:large'>
+            <a align="center"  class='btn btn-default'  (click)='onBack()'  style='width:80px'>
+                <i class='glyphicon glyphicon-chevron-left'></i> Back
+            </a>
             {{pageTitle1 + ': ' + patient.patientName }}
+            
+            
         </div>
     
         <div class='panel-body'>
@@ -102,9 +108,32 @@
         </div>
     
         <div class='panel-footer'>
-            <a class='btn btn-default' (click)='onBack()' style='width:80px'>
+            <a class='btn btn-default' (click)='onBack()'  style='width:80px'>
                 <i class='glyphicon glyphicon-chevron-left'></i> Back
             </a>
         </div>
     </div>
+    
+    <div class='panel panel-primary'>
+        <div class='panel-heading'>
+            {{pageTitle3}}            
+        </div>
+        <div class='panel-body'>
+            <div class='table-responsive'>
+                <table class='table'>
+                    <thead>
+                        <tr>                            
+                            <th>Medicine Name</th>                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor ='#medicine of patientMedicne'>                            
+                            <td>{{medicine.medicineName}}</td>                            
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
 </div>

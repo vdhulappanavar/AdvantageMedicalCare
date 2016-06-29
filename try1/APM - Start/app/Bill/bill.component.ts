@@ -12,7 +12,7 @@ import {MedicineService} from './medicine.service';
 	template : `
 					
 					<div>
-						<div class="col-md-6">HI
+						<div class="container">
 							<h1>Select Patient</h1>
 							<pt-list></pt-list>
 						</div>

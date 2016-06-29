@@ -3,7 +3,7 @@
         {{pageTitle}}
     </div>
 
-    <!-- Filter the Patients   -->
+    <!-- Filter the Medicines   -->
     <div class='panel-body'>
         <div class='row'>
             <div class='col-md-2'>Filter by:</div>
@@ -20,7 +20,7 @@
         <div class='has-error' *ngIf='errorMessage'>{{errorMessage}}</div>
 
         <div class='table-responsive'>
-            <table class='table' *ngIf='patients && patients.length'>
+            <table class='table' *ngIf='medicines && medicines.length'>
                 <thead>
                     <tr>
                         <th>
@@ -28,7 +28,7 @@
                                 {{showImage ? 'Hide' : 'Show'}} Image
                             </button>
                         </th>
-                        <th>Patient</th>
+                        <th>Medicine</th>
                         <th>Code</th>
                         <th>Available</th>
                         <th>Price</th>
@@ -36,15 +36,15 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr *ngFor ='let patient of patients | patientFilter:listFilter'>
+                    <tr *ngFor ='#medicine of medicines | medicineFilter:listFilter'>
                         <td>
-                            <img *ngIf='showImage' [src]='patient.imageUrl' [title]='patient.patientName' [style.width.px]='imageWidth' [style.margin.px]= 'imageMargin'/>
+                            <img *ngIf='showImage' [src]='medicine.imageUrl' [title]='medicine.medicineName' [style.width.px]='imageWidth' [style.margin.px]= 'imageMargin'/>
                         </td>
-                        <td><a>{{patient.patientName}}</a></td>
-                        <td>{{patient.patientCode | lowercase}}</td>
-                        <td>{{patient.releaseDate}}</td>
-                        <td>{{patient.price | currency : 'INR':true:'1.2-2'}}</td>
-                        <td><ai-star [rating] = "patient.starRating" (ratingClicked) = "OnRatingClicked($event)"></ai-star></td>
+                        <td><a [routerLink] = "['MedicineDetail' , {id:medicine.medicineId}]">{{medicine.medicineName}}</a></td>
+                        <td>{{medicine.medicineCode | lowercase}}</td>
+                        <td>{{medicine.releaseDate}}</td>
+                        <td>{{medicine.price | currency : 'INR':true:'1.2-2'}}</td>
+                        <td><ai-star [rating] = "medicine.starRating" (ratingClicked) = "OnRatingClicked($event)"></ai-star></td>
                      </tr>
                 </tbody>
             </table>
